@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "karen",
+      "empresa": "las parcelas karen",
+      "email": "karen@gmail.com",
+      "telefono": "964596128",
+      "notas": "notas de karen",
+      "id": 3
+    },
+    {
+      "nombre": "Edgar",
+      "empresa": "edgardoo",
+      "email": "edaga@gmail.coim",
+      "telefono": "964596128",
+      "notas": "a",
+      "id": 5
+    },
+    {
+      "nombre": "adasd",
+      "empresa": "dsad",
+      "email": "juanitos14@outlook.es",
+      "telefono": "964596128",
+      "notas": "dasda",
+      "id": 6
+    }
+  ]
+}
