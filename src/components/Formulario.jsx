@@ -31,7 +31,7 @@ const Formulario = ({ cliente, cargando }) => {
             let respuesta
             if (cliente.id) {
                 //Editando un Refistro
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
                  respuesta = await fetch(url, {
                     method: 'PUT',
                     body: JSON.stringify(valores),
@@ -43,7 +43,7 @@ const Formulario = ({ cliente, cargando }) => {
                 navigate('/clientes')
             } else {
                 //Nuevo Registro
-                const url = 'http://localhost:4000/clientes'
+                const url = import.meta.env.VITE_API_URL
 
                 const respuesta = await fetch(url, {
                     method: 'POST',
